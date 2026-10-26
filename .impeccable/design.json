@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T00:18:00+01:00",
+  "title": "Design System: Zweiradmeisterei",
+  "extensions": {
+    "colorMeta": {
+      "enamel": {
+        "role": "primary",
+        "displayName": "Fired Enamel",
+        "canonical": "oklch(0.42 0.16 255)",
+        "tonalRamp": [
+          "oklch(0.16 0.16 255)",
+          "oklch(0.28 0.16 255)",
+          "oklch(0.36 0.16 255)",
+          "oklch(0.42 0.16 255)",
+          "oklch(0.55 0.16 255)",
+          "oklch(0.68 0.16 255)",
+          "oklch(0.82 0.16 255)",
+          "oklch(0.95 0.16 255)"
+        ]
+      },
+      "enamel-deep": {
+        "role": "primary",
+        "displayName": "Enamel Deep",
+        "canonical": "oklch(0.32 0.14 255)",
+        "tonalRamp": [
+          "oklch(0.16 0.14 255)",
+          "oklch(0.24 0.14 255)",
+          "oklch(0.32 0.14 255)",
+          "oklch(0.44 0.14 255)",
+          "oklch(0.56 0.14 255)",
+          "oklch(0.68 0.14 255)",
+          "oklch(0.82 0.14 255)",
+          "oklch(0.95 0.14 255)"
+        ]
+      },
+      "signal": {
+        "role": "secondary",
+        "displayName": "Signal Orange",
+        "canonical": "oklch(0.74 0.155 58)",
+        "tonalRamp": [
+          "oklch(0.16 0.155 58)",
+          "oklch(0.28 0.155 58)",
+          "oklch(0.40 0.155 58)",
+          "oklch(0.52 0.155 58)",
+          "oklch(0.64 0.155 58)",
+          "oklch(0.74 0.155 58)",
+          "oklch(0.85 0.155 58)",
+          "oklch(0.95 0.155 58)"
+        ]
+      },
+      "signal-ink": {
+        "role": "secondary",
+        "displayName": "Signal Ink",
+        "canonical": "oklch(0.26 0.05 55)",
+        "tonalRamp": [
+          "oklch(0.16 0.05 55)",
+          "oklch(0.26 0.05 55)",
+          "oklch(0.38 0.05 55)",
+          "oklch(0.50 0.05 55)",
+          "oklch(0.62 0.05 55)",
+          "oklch(0.74 0.05 55)",
+          "oklch(0.86 0.05 55)",
+          "oklch(0.95 0.05 55)"
+        ]
+      },
+      "stucco": {
+        "role": "neutral",
+        "displayName": "Daylight Stucco",
+        "canonical": "oklch(0.955 0.012 85)",
+        "tonalRamp": [
+          "oklch(0.16 0.012 85)",
+          "oklch(0.28 0.012 85)",
+          "oklch(0.40 0.012 85)",
+          "oklch(0.52 0.012 85)",
+          "oklch(0.64 0.012 85)",
+          "oklch(0.76 0.012 85)",
+          "oklch(0.88 0.012 85)",
+          "oklch(0.955 0.012 85)"
+        ]
+      },
+      "porcelain": {
+        "role": "neutral",
+        "displayName": "Porcelain",
+        "canonical": "oklch(0.975 0.008 90)",
+        "tonalRamp": [
+          "oklch(0.16 0.008 90)",
+          "oklch(0.28 0.008 90)",
+          "oklch(0.40 0.008 90)",
+          "oklch(0.52 0.008 90)",
+          "oklch(0.64 0.008 90)",
+          "oklch(0.76 0.008 90)",
+          "oklch(0.88 0.008 90)",
+          "oklch(0.975 0.008 90)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Workshop Ink",
+        "canonical": "oklch(0.24 0.04 258)",
+        "tonalRamp": [
+          "oklch(0.16 0.04 258)",
+          "oklch(0.24 0.04 258)",
+          "oklch(0.36 0.04 258)",
+          "oklch(0.48 0.04 258)",
+          "oklch(0.60 0.04 258)",
+          "oklch(0.72 0.04 258)",
+          "oklch(0.84 0.04 258)",
+          "oklch(0.95 0.04 258)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(0.4 0.045 258)",
+        "tonalRamp": [
+          "oklch(0.16 0.045 258)",
+          "oklch(0.28 0.045 258)",
+          "oklch(0.40 0.045 258)",
+          "oklch(0.52 0.045 258)",
+          "oklch(0.64 0.045 258)",
+          "oklch(0.76 0.045 258)",
+          "oklch(0.86 0.045 258)",
+          "oklch(0.95 0.045 258)"
+        ]
+      },
+      "border": {
+        "role": "primary",
+        "displayName": "Enamel Hairline",
+        "canonical": "oklch(0.42 0.16 255 / 22%)",
+        "tonalRamp": [
+          "oklch(0.16 0.16 255)",
+          "oklch(0.28 0.16 255)",
+          "oklch(0.36 0.16 255)",
+          "oklch(0.42 0.16 255)",
+          "oklch(0.55 0.16 255)",
+          "oklch(0.68 0.16 255)",
+          "oklch(0.82 0.16 255)",
+          "oklch(0.95 0.16 255)"
+        ]
+      },
+      "input": {
+        "role": "primary",
+        "displayName": "Field Line",
+        "canonical": "oklch(0.42 0.16 255 / 32%)",
+        "tonalRamp": [
+          "oklch(0.16 0.16 255)",
+          "oklch(0.28 0.16 255)",
+          "oklch(0.36 0.16 255)",
+          "oklch(0.42 0.16 255)",
+          "oklch(0.55 0.16 255)",
+          "oklch(0.68 0.16 255)",
+          "oklch(0.82 0.16 255)",
+          "oklch(0.95 0.16 255)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero title on the enamel board."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service-row names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy at a 62–68ch measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Bar links, field labels, and row actions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "case",
+        "value": "0 22px 48px -16px oklch(0.23 0.04 258 / 0.38)",
+        "purpose": "Soft lift under the hero case only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "sheen",
+        "value": "0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.25s",
+        "purpose": "One pass of a porcelain band across the signal control. Removed under reduced motion."
+      },
+      {
+        "name": "scroll",
+        "value": "smooth",
+        "purpose": "In-page scrolling when reduced motion is not requested."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "40rem" },
+      { "name": "md", "value": "48rem" },
+      { "name": "lg", "value": "64rem" },
+      { "name": "content", "value": "1440px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Signal Button",
+      "kind": "button",
+      "refersTo": "button-signal",
+      "description": "The request control. Signal orange, signal-ink type, one sheen.",
+      "html": "<button class=\"ds-btn-signal\" type=\"button\">Reparatur anfragen</button>",
+      "css": ".ds-btn-signal { position: relative; overflow: hidden; height: 3rem; padding: 0 1.25rem; border: 0; border-radius: 0.12rem; background: var(--signal); color: var(--signal-ink); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; font-size: 1rem; font-weight: 600; letter-spacing: normal; cursor: pointer; } .ds-btn-signal::after { content: \"\"; position: absolute; top: 0; bottom: 0; left: 0; width: 33%; background: color-mix(in oklch, var(--porcelain) 45%, transparent); animation: ds-sheen 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.25s 1 both; pointer-events: none; } .ds-btn-signal:hover { background: color-mix(in oklch, var(--signal) 90%, transparent); } .ds-btn-signal:active { transform: translateY(1px); } .ds-btn-signal:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; } @keyframes ds-sheen { from { transform: translateX(-140%); } to { transform: translateX(380%); } } @media (prefers-reduced-motion: reduce) { .ds-btn-signal::after { animation: none; display: none; } }"
+    },
+    {
+      "name": "Enamel Button",
+      "kind": "button",
+      "refersTo": "button-enamel",
+      "description": "Square enamel action for the route and other secondary solids.",
+      "html": "<a class=\"ds-btn-enamel\" href=\"#standort\">Route öffnen</a>",
+      "css": ".ds-btn-enamel { display: inline-flex; align-items: center; height: 3rem; padding: 0 1.25rem; border-radius: 0; background: var(--enamel); color: var(--porcelain); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; font-size: 1rem; font-weight: 600; text-decoration: none; } .ds-btn-enamel:hover { background: var(--enamel); color: var(--porcelain); } .ds-btn-enamel:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }"
+    },
+    {
+      "name": "Call Button",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "Square porcelain-edged call control on the enamel board.",
+      "html": "<a class=\"ds-btn-call\" href=\"tel:+4922195317798\">Anrufen</a>",
+      "css": ".ds-btn-call { display: inline-flex; align-items: center; justify-content: center; height: 3rem; padding: 0 1rem; border: 1px solid color-mix(in oklch, var(--porcelain) 35%, transparent); border-radius: 0; background: transparent; color: var(--porcelain); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; font-size: 1rem; font-weight: 600; text-decoration: none; } .ds-btn-call:hover { color: var(--porcelain); } .ds-btn-call:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }"
+    },
+    {
+      "name": "Request Field",
+      "kind": "input",
+      "refersTo": "input-request",
+      "description": "Borderless porcelain field on the enamel board.",
+      "html": "<input class=\"ds-input-request\" type=\"text\" placeholder=\"Was sollen wir uns ansehen?\" aria-label=\"Was sollen wir uns ansehen?\" />",
+      "css": ".ds-input-request { width: 100%; height: 3rem; padding: 0 1rem; border: 0; border-radius: 0; background: var(--porcelain); color: var(--ink); caret-color: var(--enamel); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; font-size: 1rem; font-weight: 500; } .ds-input-request::placeholder { color: var(--ink-soft); } .ds-input-request:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Square porcelain field with an enamel hairline, used on the request form.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Anliegen</span><input class=\"ds-input-field\" type=\"text\" /></label>",
+      "css": ".ds-field { display: grid; gap: 0.5rem; font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; } .ds-field-label { font-size: 0.875rem; font-weight: 600; color: var(--ink); } .ds-input-field { width: 100%; height: 3rem; padding: 0 0.75rem; border: 1px solid color-mix(in oklch, var(--enamel) 25%, transparent); border-radius: 0; background: var(--porcelain); color: var(--ink); caret-color: var(--enamel); font-family: inherit; font-size: 1rem; font-weight: 500; } .ds-input-field:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }"
+    },
+    {
+      "name": "Site Bar",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Sticky enamel bar with the wordmark, section links, phone, and the 265 cell.",
+      "html": "<header class=\"ds-bar\"><a class=\"ds-wordmark\" href=\"/\">Zweiradmeisterei</a><nav class=\"ds-nav\" aria-label=\"Abschnitte\"><a href=\"#leistungen\">Leistungen</a><a href=\"#werkstatt\">Werkstatt</a><a href=\"#zeiten\">Zeiten</a><a href=\"#standort\">Standort</a></nav><p class=\"ds-bar-meta\"><span>Luxemburger Str.</span><a href=\"tel:+4922195317798\">0221 95317798</a></p><span class=\"ds-house\" aria-label=\"Hausnummer 265\">265</span></header>",
+      "css": ".ds-bar { display: flex; align-items: center; gap: 1.5rem; height: 4rem; padding: 0 1.5rem; background: var(--enamel); color: var(--porcelain); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; } .ds-wordmark { color: inherit; font-size: 1.125rem; font-weight: 800; letter-spacing: -0.03em; text-decoration: none; } .ds-nav { display: flex; gap: 1.5rem; margin-left: 0.5rem; } .ds-nav a { color: color-mix(in oklch, var(--porcelain) 90%, transparent); font-size: 0.875rem; font-weight: 600; text-decoration: none; } .ds-nav a:hover { color: var(--porcelain); } .ds-nav a:focus-visible, .ds-wordmark:focus-visible, .ds-bar-meta a:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; } .ds-bar-meta { display: flex; align-items: center; gap: 1rem; margin-left: auto; font-size: 0.875rem; font-weight: 600; } .ds-bar-meta a { color: inherit; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; text-decoration: none; } .ds-house { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; margin-left: 0.75rem; background: var(--porcelain); color: var(--enamel); font-size: 0.875rem; font-weight: 800; letter-spacing: -0.03em; }"
+    },
+    {
+      "name": "House Number",
+      "kind": "custom",
+      "refersTo": "house-number",
+      "description": "Square porcelain cell locking 265 to the right edge of the bar.",
+      "html": "<span class=\"ds-house-lock\" aria-label=\"Hausnummer 265\">265</span>",
+      "css": ".ds-house-lock { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; background: var(--porcelain); color: var(--enamel); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; font-size: 0.875rem; font-weight: 800; letter-spacing: -0.03em; }"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Hairline service link: name, detail, and an enamel Anfragen action.",
+      "html": "<a class=\"ds-service\" href=\"#anfrage\"><span class=\"ds-service-name\">Inspektion</span><span class=\"ds-service-detail\">Durchsicht des Rades in der Meisterwerkstatt.</span><span class=\"ds-service-action\">Anfragen</span></a>",
+      "css": ".ds-service { display: grid; grid-template-columns: 16rem minmax(0, 1fr) auto; align-items: baseline; gap: 2rem; padding: 1.5rem 0; border-top: 1px solid color-mix(in oklch, var(--enamel) 20%, transparent); border-bottom: 1px solid color-mix(in oklch, var(--enamel) 20%, transparent); background: transparent; color: var(--ink); font-family: var(--font-schibsted), \"Schibsted Grotesk\", sans-serif; text-decoration: none; } .ds-service:hover { background: var(--porcelain); } .ds-service:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; } .ds-service-name { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.03em; } .ds-service-detail { max-width: 62ch; color: var(--ink-soft); } .ds-service-action { font-size: 0.875rem; font-weight: 600; color: var(--enamel); text-align: right; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Stop Case",
+    "overview": "The Stop Case treats the workshop site as a tram-stop board on Luxemburger Straße. The ground is daylight stucco. The offer sits in a fired-enamel case. Type on that case is porcelain. One signal-orange cell is the repair request. Density follows a timetable: flush-left type, hairline rules, and a house number locked to the bar.\n\nEnamel is a saturated fired blue, used as a material for the bar, the hero case, the Meister band, and the route action. Porcelain is the light face of the same object: type on enamel, the request field, the hours panel, and the 265 cell. Stucco is the street between those bands. Signal orange stays rare so the next action is obvious. Depth comes from changing material. A single soft shadow belongs to the hero case.\n\nSchibsted Grotesk is the only typeface, from the wordmark through the timetable. Display sizes track tight. Phone numbers and hours use tabular figures. The request control carries one sheen, played once, and that sheen is removed when the visitor prefers reduced motion. Focus is a signal outline sitting just outside the control.",
+    "keyCharacteristics": [
+      "Daylight stucco ground with a fired-enamel case",
+      "One signal-orange request control",
+      "Schibsted Grotesk, flush left, tight display tracking",
+      "Hairline rules and square panels",
+      "House number 265 locked to the bar",
+      "Tabular phone numbers and hours",
+      "One soft shadow, under the hero case only"
+    ],
+    "rules": [
+      {
+        "name": "The Fired Blue Rule",
+        "body": "Enamel stays the fired blue oklch(0.42 0.16 255), at full chroma, for the case, the bar, and the Meister band.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Live Cell Rule",
+        "body": "At rest, signal orange is the request control and nothing else. Links, bands, and secondary actions use enamel, porcelain, or ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Alias Rule",
+        "body": "The stylesheet's primary alias points at signal, and its secondary alias points at enamel. Specify the named tokens enamel, signal, stucco, porcelain, and ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "Schibsted Grotesk carries the wordmark, display, body, labels, and figures. Load weights 500, 600, 700, and 800.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Tracking Rule",
+        "body": "Display, headlines, the wordmark, and row titles track at −0.03em. Body and labels keep normal tracking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Axis Rule",
+        "body": "Hours, the phone number, and timetable figures use tabular numbers.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flush Left Rule",
+        "body": "Headlines and body sit flush left. Long titles may balance their line breaks; they stay left-aligned.",
+        "section": "layout"
+      },
+      {
+        "name": "The 265 Rule",
+        "body": "The house number sits in a square porcelain cell, enamel type, at the right edge of the bar on every width.",
+        "section": "layout"
+      },
+      {
+        "name": "The Case Shadow Rule",
+        "body": "Surfaces are flat and change material. The hero case is the only element with a shadow: 0 22px 48px -16px oklch(0.23 0.04 258 / 0.38).",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Case Rule",
+        "body": "The case, panels, fields, the map, and the 265 cell are square. The signal control is the only radius, at 0.12rem.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Lists, the timetable, and panel edges use a 1px rule: enamel at about 20–25% on light surfaces, porcelain at about 20–35% on enamel.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do paint the ground in stucco and the bar, the case, and the Meister band in fired enamel.",
+      "Do keep signal orange on the request control, with signal-ink type, and enamel on the route action.",
+      "Do lock 265 in a square porcelain cell at the right edge of the enamel bar, on every width.",
+      "Do set hours and the phone in tabular figures.",
+      "Do separate lists and the timetable with a 1px enamel hairline.",
+      "Do leave the case, panels, fields, map, and the 265 cell square.",
+      "Do show focus as a 2px signal outline, 3px outside the control.",
+      "Do play the request-control sheen once, and remove it when reduced motion is requested."
+    ],
+    "donts": [
+      "Don't shift enamel toward slate, gray-blue, or a neutral navy.",
+      "Don't center a headline stack or place an eyebrow above a title.",
+      "Don't tile a section with icons.",
+      "Don't spend signal orange on links, bands, or a second competing button.",
+      "Don't round the case, the panels, or the fields.",
+      "Don't add a second shadow, or a hard offset shadow.",
+      "Don't introduce a second typeface."
+    ]
+  }
+}
