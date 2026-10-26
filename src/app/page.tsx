@@ -9,6 +9,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "BikeStore",
   name: site.name,
+  url: site.url,
   telephone: site.phoneTel,
   email: site.email,
   address: {

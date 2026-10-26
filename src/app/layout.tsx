@@ -13,6 +13,7 @@ const sans = Schibsted_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
     default: "Zweiradmeisterei · Fahrradwerkstatt Köln-Sülz",
     template: "%s · Zweiradmeisterei",

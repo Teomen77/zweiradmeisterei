@@ -10,6 +10,7 @@ export const site = {
   phoneTel: "+4922195317798",
   email: "zweiradmeisterei@gmail.com",
   vatId: "DE348613184",
+  url: "https://zweiradmeisterei.vercel.app",
   houseNumber: "265",
   lat: 50.9160617,
   lon: 6.9282942,

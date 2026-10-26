@@ -4,7 +4,9 @@ One-page site for the Meister bicycle workshop in Köln-Sülz.
 
 ## Production
 
-The live URL is written here after the Vercel production deploy.
+https://zweiradmeisterei.vercel.app
+
+Source: https://github.com/Teomen77/zweiradmeisterei
 
 ## Local
 
