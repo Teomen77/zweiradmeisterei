@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Schibsted_Grotesk } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { site } from "@/lib/site";
+import { photos, site } from "@/lib/site";
 import "./globals.css";
 
 const sans = Schibsted_Grotesk({
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/hero-werkstatt.jpg",
-        alt: "Generierte Darstellung einer Werkstatt mit Fahrrad. Kein Foto der Zweiradmeisterei.",
+        url: photos.hero.src,
+        alt: photos.hero.alt,
       },
     ],
   },

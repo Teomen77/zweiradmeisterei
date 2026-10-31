@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import Image from "next/image";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import { heroAlt, repairMailto, site } from "@/lib/site";
+import { photos, repairMailto, site } from "@/lib/site";
 
 export function Hero() {
   const [error, setError] = useState<string | null>(null);
@@ -28,15 +28,23 @@ export function Hero() {
       <div className="case-shadow mx-auto flex min-h-[calc(100svh-var(--nav-h)-1rem)] max-w-[1440px] flex-col overflow-hidden bg-enamel">
         <div className="relative min-h-[38vh] flex-1">
           <Image
-            src="/hero-werkstatt.jpg"
-            alt={heroAlt}
+            src={photos.hero.src}
+            alt={photos.hero.alt}
             fill
             priority
             sizes="(min-width: 1440px) 1440px, 100vw"
-            className="object-cover object-[center_42%]"
+            className="object-cover object-center"
           />
-          <p className="absolute bottom-3 left-3 max-w-[18rem] bg-enamel/92 px-2.5 py-1.5 text-xs leading-snug text-porcelain">
-            Generierte Darstellung, kein Foto der Werkstatt.
+          <p className="absolute bottom-3 left-3 bg-enamel/92 px-2.5 py-1.5 text-xs leading-snug text-porcelain">
+            Symbolfoto ·{" "}
+            <a
+              href={photos.hero.creditUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-porcelain/40 underline-offset-2"
+            >
+              {photos.hero.credit}
+            </a>
           </p>
         </div>
         <div className="shrink-0 px-5 py-5 text-porcelain md:px-10 md:py-6">

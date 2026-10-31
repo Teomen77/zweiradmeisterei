@@ -133,8 +133,17 @@ export const routeLink = `https://www.google.com/maps/dir/?api=1&destination=${e
   `${site.street}, ${site.postalCode} ${site.city}`,
 )}`;
 
-export const heroAlt =
-  "Generierte Darstellung einer Werkstatt mit Fahrrad auf einem Montageständer. Kein Foto der Zweiradmeisterei.";
-
-export const detailAlt =
-  "Generierte Darstellung eines Laufrads in einem Zentrierständer. Kein Foto der Zweiradmeisterei.";
+export const photos = {
+  hero: {
+    src: "/hero-arbeit.jpg",
+    alt: "Hände lösen mit einer Ratsche das Tretlager an einem schwarzen Fahrradrahmen.",
+    credit: "Bohdan Kadun",
+    creditUrl: "https://unsplash.com/photos/a-close-up-of-a-person-working-on-a-bike-d284XSho6gU",
+  },
+  detail: {
+    src: "/detail-schaltung.jpg",
+    alt: "Nahaufnahme von Kassette und Schaltwerk an einem roten Fahrrad.",
+    credit: "Wayne Bishop",
+    creditUrl: "https://unsplash.com/photos/selective-focus-photo-of-bicycle-part-7YUW7fvIYoQ",
+  },
+} as const;

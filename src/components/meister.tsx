@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { detailAlt, facts } from "@/lib/site";
+import { facts, photos } from "@/lib/site";
 
 export function Meister() {
   return (
@@ -31,15 +31,23 @@ export function Meister() {
         <figure className="border border-porcelain/30">
           <div className="relative aspect-[4/3]">
             <Image
-              src="/detail-laufrad.jpg"
-              alt={detailAlt}
+              src={photos.detail.src}
+              alt={photos.detail.alt}
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"
               className="object-cover"
             />
           </div>
           <figcaption className="border-t border-porcelain/30 px-4 py-3 text-sm text-porcelain/75">
-            Generierte Darstellung, kein Foto der Werkstatt.
+            Symbolfoto ·{" "}
+            <a
+              href={photos.detail.creditUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-porcelain/40 underline-offset-2"
+            >
+              {photos.detail.credit}
+            </a>
           </figcaption>
         </figure>
       </div>
